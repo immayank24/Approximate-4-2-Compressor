@@ -1,6 +1,5 @@
-8×8 Dadda Multiplier with Approximate 4:2 Compressor
+Approximate 4:2 Compressor
 
-AN 8x8 Dadda multiplier is implemented using a approximate 4:2 compressor. The steps of implementation are as follows:
-1. Approximate region where approximate 4:2 compressor is used for reduction stage.
-2. Recovery Region where error detection module is implemented 
-3. Exact region of MSB side where exact 4:2 compressor is used.
+An approximate 4:2 compressor is designed in both gate level and transistor level using cmos 45nm technology.
+It is compared with the exact compressor and one standard refrence approximate compressor.
+Transistor count is optimised with the help of different combination of gates.
